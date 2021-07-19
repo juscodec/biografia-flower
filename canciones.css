@@ -1,0 +1,65 @@
+@import url(index.css);
+h2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 45px;
+}
+#botones1{
+    width: 350px;
+    margin: 150px auto;
+    padding: 0;
+    background: url("https://i.pinimg.com/originals/8e/d1/b9/8ed1b91de0bf010312de7e9a5928a152.gif");
+  background-size: contain;
+ 
+}
+ a {
+    text-decoration: none;
+    color: white;
+}
+
+#boton1{
+    background: green;
+   
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+    font-weight: 700;
+
+}
+#boton1:hover{
+    background: green;
+    margin-left: -11px;
+    transition: all .3s;
+    width: 355px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    
+   
+    }
+
+
+    /* VIDEOS*/
+#videos{
+    text-align: center;
+}
+.video video{
+    width: 500px;
+    height: 315px;
+    box-shadow: 2px 2px 2px 8px green;
+    border-radius: 10px;
+}
+.video iframe{
+    width: 500px;
+    height: 315px;
+    box-shadow: 2px 2px 2px 8px green;
+    border-radius: 10px;
+}
+button{
+    background: green;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin: 25px 0;
+}

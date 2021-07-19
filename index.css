@@ -1,0 +1,134 @@
+body{
+    box-sizing: border-box;
+    background: url("https://acegif.com/wp-content/gif/confetti-40.gif");
+    background-color: rgb(255,255,255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    margin-left:205px;
+
+}
+/*header*/
+
+#menu-vertical{
+    width: 200px;
+	/*linear-gradient es para la imageb que esta en el fondo tenga un degradado */
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url("https://www.xtrafondos.com/wallpapers/vertical/colores-de-la-naturaleza-331.jpg");
+	background-position: center center;
+	background-size: cover;/*abarque todo el baner*/
+    color: white;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+}
+
+#menu-vertical #header{
+    box-sizing: border-box;
+ /* border-bottom: solid 3px rgb(23,23,23);*/
+    padding: 18px 10px;
+   text-align: center;
+ }
+ 
+ #menu-vertical #header #titulo{
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 5px white;
+    
+}
+
+    #foto img{
+        border: green solid 3px;
+        border-radius: 50% ;
+    }
+    #nombre span{
+        font-weight: 700;
+        
+    }
+
+#menu-vertical a{
+   
+    color: white;
+ text-decoration: none;
+ font-weight: 700;
+
+ 
+}
+
+#menu-botones .botones{
+    margin: 10px;
+    padding: 10px;
+    background: linear-gradient(rgba(3, 80, 26) 0%, rgba(54, 195, 49, 0.8) 100%);
+  
+    border-radius:50% 50%;
+}
+#menu-botones .botones:hover{
+    background: linear-gradient(rgba(54, 195, 49, 0.8)0%,rgba(3, 80, 26) 100% );
+    transition:all .6s;
+}
+/*/header*/
+
+#contenerdor{
+    box-sizing: border-box;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#titular{
+    text-align: center;
+}
+        #titular #titulo-bio{
+            font-size: 45px;
+            font-weight: 800;
+            margin-bottom: 15px;
+        }
+        #titular #perfil img{
+            width: 300px;
+            height: 300px;
+            border: solid 3px green;
+            border-radius:  50%;
+            box-shadow: 5px 2px 15px 10px black ;
+        }
+        #titular #name{
+            margin: 10px;
+            font-size: 40px;
+            font-weight: 700;
+        }
+#descripcion1{
+    background: linear-gradient(rgba(255,255, 255, .5) 0%, rgba(255,255,255,.2) 100%), url("http://imgfz.com/i/LzYbhtK.jpeg");
+	background-position: center center;
+	background-size: cover;/*abarque todo el baner*/
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    text-shadow: white 5px 3px 7px ;
+    font-weight: 600;
+    box-shadow: black 5px 5px 7px;
+    border-radius: 100% 50%;
+}
+#foto-escuela{
+    text-align: center;
+}
+    #foto-escuela img{
+        margin: 25px 0;
+        width: 500px;
+        height: 500px;
+        border-radius:5px;
+        box-shadow: 5px 2px 15px 10px black ;
+    }
+    #descripcion2{
+        background: linear-gradient(rgba(255, 255, 255, .5) 0%, rgba(255,255,255,.2) 100%), url("http://imgfz.com/i/LO7j1z0.jpeg");
+        background-position: center center;
+        background-size: cover;/*abarque todo el baner*/
+        width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: justify;
+        text-shadow: white 5px 3px 7px ;
+        font-weight: 600;
+        box-shadow: black 5px 5px 7px;
+        border-radius: 100% 50%;
+    }

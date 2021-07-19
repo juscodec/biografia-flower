@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="formulario.css" rel="stylesheet" />
+</head>
+<body>
+        <!--header-->
+        <div id="menu-vertical" class="menu">
+    
+          <div id="header">
+              <div id="titulo"><span>Biografia</span></div>
+                  <div id="foto"><img src="http://imgfz.com/i/NZKjyvL.jpeg" alt="" width="100px" height="100px"></div>
+                  <div id="nombre"><span>Nayuth Aguilar</span></div>
+              
+              <div id="menu-botones">
+                  <div class="botones"><a href="index.html">INICIO</a></div>
+                  <div class="botones"><a href="pandemia.html">PANDEMIA</a></div>
+                  <div class="botones"><a href="animales.html">ANIMALES</a></div>
+                  <div class="botones"><a href="canciones.html">CANCIONES</a></div>
+                  <div class="botones"><a href="formulario.html">FORMULARIO</a></div>
+                 
+              </div>
+          </div>
+      
+      </div>
+      
+      <!--/header-->
+      <div class="caja">
+        <form action="">
+            <fieldset>
+                <legend><b>Fórmulário de Clientes</b></legend>
+                <br>
+                <div class="inputs">
+                    <input type="text" name="nombre" id="nombres" class="inputUser" required>
+                    <label for="nombres" class="labelInput">Nombres y Apellidos</label>
+                </div>
+                <br>
+                <div class="inputs">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Correo Electronico</label>
+                </div>
+                <br>
+                <div class="inputs">
+                    <input type="tel" name="telefono" id="telefono" class="inputUser" required>
+                    <label for="telefono" class="labelInput">Telefono</label>
+                </div>
+                <br>
+                <p>Sexo:</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <br>
+                <input type="radio" id="otros" name="genero" value="otros" required>
+                <label for="otros">Otros</label>
+                <br>
+                  <label for="f_nascimento"><b>Fecha de Nascimento:</b></label>
+                <input type="date" name="f_nascimento" id="f_nascimento" required>
+                <br>
+                <p>Comentario</p> 
+                <textarea name="comentario" id="comentario" cols="80" rows="5"></textarea>
+                <br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

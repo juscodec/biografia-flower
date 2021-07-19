@@ -1,0 +1,36 @@
+@import url(index.css);
+
+
+
+#servicios h2, h3{
+    text-align: center;
+    margin: 5px;
+    color: green;
+}
+
+
+#servicios #contenedor4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#servicios article{
+    background: rgb(82, 190, 128 );
+    margin: 10px;
+    width: 520px;
+    border: green 1px solid ;
+    border-radius: 15px;
+    box-shadow: 2px 5px 5px 5px green;
+}
+#servicios p{
+    text-align: justify;
+    line-height: 1.5rem;
+    padding: 8px;
+}
+
+#servicios  img{
+    border-radius: 15px;
+    width: 100%;
+    height: 350px;
+}
